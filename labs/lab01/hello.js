@@ -11,10 +11,10 @@ class Hello extends Component {
 
   componentWillMount() {
     butter.post.list().then((resp) => {
-        this.setState({
+        this.state = {
             loaded: true,
             resp: resp.data
-        })
+        };
     });
   }
 

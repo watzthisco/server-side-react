@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server"
   },
-  "author": "Roger Jin",
+  "author": "Roger Jin (updated by Chris Minnick for React 16)",
   "dependencies": {
     "buttercms": "^1.1.0",
     "path": "*",

@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Hello from './hello';
 
-ReactDOM.render(
-  <Hello />,
+ReactDOM.hydrate(<Hello />,
   document.getElementById('app')
 );
