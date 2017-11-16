@@ -1,0 +1,27 @@
+{
+  "name": "react-ssr",
+  "version": "0.0.1",
+  "description": "React server rendering example",
+  "scripts": {
+    "start": "webpack && babel-node server.js"
+  },
+  "author": "Roger Jin (updated by Chris Minnick for React 16)",
+  "dependencies": {
+    "buttercms": "^1.1.0",
+    "express": "^4.16.2",
+    "path": "*",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-transmit": "^3.2.0",
+    "react-transmit-client-server": "^3.1.5"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "json-loader": "^0.5.7",
+    "webpack": "*",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
